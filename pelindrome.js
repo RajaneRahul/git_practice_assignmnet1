@@ -1,15 +1,17 @@
-let string = "naman"
 
-function revers(string){
-   let bag =""
+
+function checkPalindrome(string){
+   let reversed =""
 for(let i=0;i<=string.length-1;i++){
-   bag+=string[i]
+   reversed+=string[i]
 }
-  return bag;
+ if(string==reversed){
+  return true console.log("Palindrome");
+ }else{
+return false console.log("Not Palimdrome");
 }
-let reversed=reverse(string);
-if(string==reversed){
+let palindrome =checkPalindrome("naman")
+ if(palindrome==true){
   console.log("Palindrome");
  }else{
 console.log("Not Palimdrome");
-}
