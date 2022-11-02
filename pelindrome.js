@@ -2,7 +2,7 @@ let string = "naman"
 
 function revers(string){
    let bag =""
-for(let i=0;i<=string.length-1;i++){
+for(let i<=string.length-1;i>=0;i--){
    bag+=string[i]
 }
   return bag;
