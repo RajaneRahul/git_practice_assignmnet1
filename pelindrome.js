@@ -1,5 +1,6 @@
 
 
+
 function checkPalindrome(string){
    let reversed =""
 for(let i=0;i<=string.length-1;i++){

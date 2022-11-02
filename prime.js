@@ -1,7 +1,7 @@
 function checkPrime(num)
     let factore =0;
      for(let i=0;i<=num;i++){
-     if(num%i==0{
+if(num%i==0{
      factore++;
      }
    }
